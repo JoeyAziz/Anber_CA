@@ -175,7 +175,7 @@ public class Main {
 
 	public static void main(String[] args) throws CompileException {
 		init();
-		String path = "C:\\Users\\BC\\Desktop\\test.txt";
+		String path = "PUT_YOUR_PATH\\test.txt";
 		encode(path);
 
 		for (int i = 0; i < registers.length; i++) {
