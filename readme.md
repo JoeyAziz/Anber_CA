@@ -13,8 +13,8 @@ One register ($one)($1)</li><li> 2 for return address($ra, $ra2)</li></ul>
 
     //This is an example script for demo. to show syntax
     addi $t0 $t0 3 This adds 3 to register $t0
-    addi $t1 $t0 5 add 1 from $t0 to value 5 and save it in $t1
-    mult $t2 $t1 $t0 multiply 3 and 5 from the registers stated upwards
+    addi $t1 $t0 2 add 1 from $t0 to value 5 and save it in $t1
+    mult $t2 $t1 $t0 multiply 3 and 2 from the registers stated upwards
     j label
     and $t3 $t2 $t0
     
